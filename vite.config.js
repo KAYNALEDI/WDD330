@@ -1,9 +1,17 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
 
+// const express = require('express');
+// const app = express();
+
+// const port = process.env.PORT || 8080;
+
+// app.use('/', require(',/routes'))
+
+// app.listen(port, () => {console.log('running on port ${port}')})
+
 export default defineConfig({
   root: "src/",
-
   build: {
     outDir: "../dist",
     rollupOptions: {
